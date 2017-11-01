@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        	  android:scrollbarAlwaysDrawVerticalTrack="true">
+
+	<PreferenceCategory
+            android:title="@string/preference_game_difficulty">
+            
+       <ListPreference
+       			android:key="setDifficulty"
+                android:title="@string/preference_set_difficulty"
+                android:entries="@array/preference_difficulty_options"
+                android:entryValues="@array/preference_difficulty_options"
+                android:defaultValue="Medium"
+                android:persistent="true"
+       			/>
+            
+    </PreferenceCategory>
+
+	<PreferenceCategory
+            android:title="@string/preference_game_settings">
+            
+       <CheckBoxPreference
+       			android:key="enableMusic"
+                android:title="@string/preference_enable_music"
+                android:defaultValue="true"
+                android:persistent="true"
+                />               
+                
+		<CheckBoxPreference
+       			android:key="enableSound"
+                android:title="@string/preference_enable_sound"
+                android:defaultValue="true"
+                android:persistent="true"
+                />
+                
+    </PreferenceCategory>
+    
+    <!--  
+     <PreferenceCategory
+            android:title="@string/preference_save_game">
+            
+       <com.frostbladegames.basestation9.YesNoDialogPreference
+       			android:key="erasegame"
+                android:title="@string/preference_erase_save_game"
+                android:dialogMessage="@string/preference_erase_save_game_dialog" 
+                android:dialogTitle="@string/preference_erase_save_game_dialog_title"
+                android:negativeButtonText="@string/preference_erase_save_game_dialog_cancel"
+                android:positiveButtonText="@string/preference_erase_save_game_dialog_ok"
+                />
+                    
+    </PreferenceCategory>
+    -->
+    
+    <PreferenceCategory
+            android:title="@string/preference_misc">
+            
+       	<Preference
+	       	    android:title="@string/preference_erase_game"
+	            android:summary="@string/preference_erase_game_summary"
+	            android:enabled="false"
+	            android:selectable="false" />
+
+        <PreferenceScreen
+                android:title="@string/preference_visit_site">
+
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://www.frostbladegames.com" />
+
+        </PreferenceScreen>
+        
+        <PreferenceScreen
+                android:title="@string/preference_about_basestation9">
+                
+	        <Preference
+	        	    android:title="@string/preference_version_title"
+	                android:summary="@string/preference_version_summary"
+	                android:enabled="false"
+	                android:selectable="false" />
+	                
+	        <Preference
+	                android:title="@string/preference_thanks_title"
+	                android:summary="@string/preference_thanks_summary"
+	                android:enabled="false"
+	                android:selectable="false" />
+	                
+	        <Preference
+	                android:title="@string/preference_licence_title"
+	                android:summary="@string/preference_licence_summary"
+	                android:enabled="false"
+	                android:selectable="false" />
+		</PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

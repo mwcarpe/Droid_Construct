@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    
+            <RadioButton android:id="@+id/radio_droid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_droid1" />
+    
+            <RadioButton android:id="@+id/radio_droid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_droid2" />
+                
+            <RadioButton android:id="@+id/radio_droid3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_droid3" />
+                
+            <RadioButton android:id="@+id/radio_droid4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_droid4" />
+                
+            <RadioButton android:id="@+id/radio_droid5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_droid5" />
+        </RadioGroup>
+        
+        <Button android:id="@+id/button_newgame_save"
+            android:text="@string/button_newgame_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+            
+        <Button android:id="@+id/button_newgame_cancel"
+            android:text="@string/button_newgame_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+
+</ScrollView>

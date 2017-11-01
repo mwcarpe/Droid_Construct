@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<levelTree>
+
+<group>
+	<level resourceEasy="@raw/level00_intro_build_easy" resourceMedium="@raw/level00_intro_build_medium"
+		resourceHard="@raw/level00_intro_build_hard" title = "@string/level00_intro_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level01_build_easy" resourceMedium="@raw/level01_build_medium"
+		resourceHard="@raw/level01_build_hard" title = "@string/level01_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level02_build_easy" resourceMedium="@raw/level02_build_medium"
+		resourceHard="@raw/level02_build_hard" title = "@string/level02_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level03_build_easy" resourceMedium="@raw/level03_build_medium"
+		resourceHard="@raw/level03_build_hard" title = "@string/level03_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level04_build_easy" resourceMedium="@raw/level04_build_medium"
+		resourceHard="@raw/level04_build_hard" title = "@string/level04_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level05_build_easy" resourceMedium="@raw/level05_build_medium"
+		resourceHard="@raw/level05_build_hard" title = "@string/level05_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level06_build_easy" resourceMedium="@raw/level06_build_medium"
+		resourceHard="@raw/level06_build_hard" title = "@string/level06_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level07_build_easy" resourceMedium="@raw/level07_build_medium"
+		resourceHard="@raw/level07_build_hard" title = "@string/level07_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level08_build_easy" resourceMedium="@raw/level08_build_medium"
+		resourceHard="@raw/level08_build_hard" title = "@string/level08_build">
+	</level>
+</group>
+
+<group>
+	<level resourceEasy="@raw/level09_build_easy" resourceMedium="@raw/level09_build_medium"
+		resourceHard="@raw/level09_build_hard" title = "@string/level09_build">
+	</level>
+</group>
+ 
+</levelTree>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Base Station 9</string>
+    <string name="author">FrostBlade LLC</string>
+    <string name="website">http://www.frostbladegames.com/</string>
+    
+    <string name="change_level">Switch Levels</string>
+	<string name="test_animation">Test Animation</string>
+	<string name="test_diary">Test Diary</string>
+	<string name="unlock_levels">Unlock All Levels</string>
+	<string name="unlock_next_level">Unlock Next Level</string>
+	<string name="method_tracing">Toggle Method Tracing</string>
+	
+	<string name = "game_over">GAME OVER</string>
+	<string name = "thanks_for_playing">THANKS FOR PLAYING!</string>
+	<string name = "please_wait">PLEASE WAIT</string>
+	
+	<!-- NewGameActivity -->
+	<string name="radio_droid1">Droid1</string>
+	<string name="radio_droid2">Droid2</string>
+	<string name="radio_droid3">Droid3</string>
+	<string name="radio_droid4">Droid4</string>
+	<string name="radio_droid5">Droid5</string>
+	<string name="button_newgame_save">Save</string>
+	<string name="button_newgame_cancel">Cancel</string>
+	
+	<!-- UI -->
+	<string name="preference_save_game">Game Data</string>
+	<string name="preference_erase_save_game">Erase Saved Game</string>
+	<string name="preference_erase_save_game_dialog">Really erase your saved game?  All of your progress will be lost!</string>
+	<string name="preference_erase_save_game_dialog_title">Now wait just a minute</string>
+	<string name="preference_erase_save_game_dialog_ok">Erase Save</string>
+	<string name="preference_erase_save_game_dialog_cancel">Cancel</string>
+	
+	<string name="preference_game_difficulty">Game Difficulty</string>
+	<string name="preference_set_difficulty">Set Difficulty Level</string>
+	
+	<string-array name="preference_difficulty_options">
+    	<item>New Model (Easy)</item>
+    	<item>Efficient (Medium)</item>
+    	<item>Machine (Hard)</item>
+	</string-array>
+	
+	<string name="preference_game_settings">Game Settings</string>
+	<string name="preference_enable_music">Enable Background Music</string>
+	<string name="preference_enable_music_summary">Disabling music may improve performance on some devices.</string>
+	
+	<string name="preference_enable_sound">Enable Sound</string>
+	<string name="preference_enable_sound_summary">Disabling sound may improve performance on some devices.</string>
+	
+	<string name="preference_safe_mode">Safe Mode</string>
+	<string name="preference_safe_mode_summary">Enables safety hacks for broken devices (Cliq, etc), but causes some visual artifacts. Try this if you have problems.</string>
+	
+	<string name="preference_configure_controls">Configure Controls</string>
+	<string name="preference_enable_click_attack">Click Attack</string>
+	<string name="preference_enable_click_attack_summary">Use the trackball click or directional pad center button to attack.</string>
+	<string name="preference_enable_tilt_controls">Tilt Controls</string>
+	<string name="preference_enable_tilt_controls_summary">EXPERIMENTAL!  Tilt the phone left and right to drive the Android around.  Good for devices with no trackball or d-pad.</string>
+	
+	<string name="preference_movement_sensitivity">Motion Sensitivity</string>
+	<string name="preference_movement_sensitivity_summary">Adjusts the sensitivity of the trackball, d-pad, or optical sensor.</string>
+	<string name="preference_movement_min">Slow</string>
+	<string name="preference_movement_max">Fast</string>
+	
+	<string name="preference_tilt_sensitivity">Tilt Sensitivity</string>
+	<string name="preference_tilt_sensitivity_summary">Adjusts the sensitivity of the tilt controls.</string>
+	<string name="preference_tilt_min">Slow</string>
+	<string name="preference_tilt_max">Fast</string>
+	
+	<string name="preference_key_config">Configure Keyboard</string>
+	<string name="preference_key_config_summary">Customize keys for phones with hard keyboards.</string>
+	<string name="preference_key_config_dialog_title">Configure Keyboard</string>
+	<string name="preference_key_config_dialog_ok">Save</string>
+	<string name="preference_key_config_dialog_cancel">Cancel</string>
+	<string name="preference_key_config_left">Left</string>
+	<string name="preference_key_config_right">Right</string>
+	<string name="preference_key_config_jump">Jump</string>
+	<string name="preference_key_config_attack">Attack</string>
+	
+	
+	<string name="preference_enable_statistics">Report Play Statistics</string>
+	<string name="preference_enable_statistics_summary">Sends anonymous play statistics to a server to help us make this game more fun.</string>
+	
+	<string name="preference_erase_game">Erase Game</string>
+	<string name="preference_erase_game_summary">To erase game history, go to Android -> Settings -> Applications -> Manage Applications -> Base Station 9 -> click Clear Data button.  Please note this erase is permanent and cannot be recovered. </string>
+	
+	<string name="preference_about">About</string>
+	<string name="preference_about_basestation9">About Base Station 9</string>
+	<string name="preference_version_title">Version</string>
+	<string name="preference_version_summary">v1.7</string>
+	<string name="preference_about_summary">Base Station 9 developed by FrostBlade LLC.</string>
+	<string name="preference_visit_site">Go to the FrostBlade Web Site</string>
+	<string name="preference_thanks_title">Special Thanks</string>
+	<string name="preference_thanks_summary">Special Thanks to Google and the Android Team, Chris Pruett, the contributors to the Android Dev Blog and Stack Overflow, and to Soundation.</string>
+	<string name="preference_licence_title">License</string>
+	<string name="preference_licence_summary">Base Station 9 developed by FrostBlade LLC.  Copyright 2012 by FrostBlade LLC.  All Rights Reserved. Portions of this game are modifications based on work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.</string>
+	<string name="preference_misc">Miscellaneous</string>
+	<string name="preference_enable_debug">Debug Log</string>
+	<string name="preference_enable_debug_summary">Output various logs to logcat.  This option will slow the game down.</string>
+	
+	
+	<string name="saved_game_erased_notification">Saved Game Erased</string>
+	
+	<string name="returnmainmenu_game_dialog_title">Return to Main Menu</string>
+	<string name="returnmainmenu_game_dialog_ok">Main Menu</string>
+	<string name="returnmainmenu_game_dialog_cancel">Cancel</string>
+	<string name="returnmainmenu_game_dialog_message">End Current Game?</string>
+	
+	<string name="quit_game_dialog_title">Quit Base Station 9</string>
+	<string name="quit_game_dialog_ok">Quit</string>
+	<string name="quit_game_dialog_cancel">Cancel</string>
+	<string name="quit_game_dialog_message">Quit Game?</string>
+	
+	<string name="license_verification_dialog_title">License Verification</string>
+	<string name="license_allow_dialog_message">License Verified</string>
+	<string name="license_allow_dialog_ok">OK</string>
+	<string name="license_dont_allow_dialog_message">Sorry, the License could not be verified. Please check your network connection or re-start the app. If not currently licensed, please go to Google Play to purchase a license.</string>
+	<string name="license_dont_allow_dialog_close_app">Close App</string>
+	
+	<string name="nav_type">Trackball</string>
+	
+	<string name="whats_new_dialog_title">Base Station 9</string>
+	<string name="whats_new_dialog_ok">OK</string>
+	<string name="whats_new_dialog_message">Thanks for downloading Base Station 9\n\n
+	<b>New Version:</b>\n
+	As of version 1.3, more than 500,000 users have downloaded Base Station 9.  Thank you for your support!
+	\n
+	\n
+	Also note that this game sends anonymous play statistics back to a server.  If you’d rather not
+	allow that, you can turn it off in the options screen.</string>
+	
+	<string name="whats_new_ticker">New in this version: Fix blackouts on broken phones (Cliq, Backflip, etc), improved controls, adjustable control sensitivity, various performance and stability improvements.</string>
+	
+	<!-- Toast Messages -->
+	<string name="memory_playback_start">MEMORY PLAYBACK START</string>
+	<string name="memory_playback_complete">MEMORY PLAYBACK COMPLETE</string>
+	<string name = "diary_found">FOUND OLD DIARY</string>
+	
+	<!--  names -->
+	<string name = "Wanda">Wanda</string>
+	<string name = "Kyle">Kyle</string>
+	<string name = "Kabocha">Dr. Kabochanomizu</string>
+	<string name = "Rokudou">Mr. Rokudou</string>
+	<string name = "Android">Android</string>
+	
+	<!-- level names -->
+	<string name = "level00_splashscreen">SplashScreen</string>
+	<string name = "level00_intro_build">Intro</string>
+	<string name = "level01_build">Level 1</string>
+	<string name = "level02_build">Level 2</string>
+	<string name = "level03_build">Level 3</string>
+	<string name = "level04_build">Level 4</string>
+	<string name = "level05_build">Level 5</string>
+	<string name = "level06_build">Level 6</string>
+	<string name = "level07_build">Level 7</string>
+	<string name = "level08_build">Level 8</string>
+	<string name = "level09_build">Level 9</string>
+	
+	<string name = "level_1_1_island">Memory #003</string>
+	<string name = "level_1_2_island">Memory #004</string>
+	<string name = "level_1_3_island">Memory #005</string>
+	<string name = "level_1_4_island">Memory #006</string>
+	<string name = "level_1_5_island">Memory #007</string>
+	<string name = "level_1_6_island">Memory #008</string>
+	<string name = "level_1_7_island">Memory #009</string>
+	<string name = "level_1_8_island">Memory #010</string>
+	<string name = "level_1_9_island">Memory #011</string>
+	
+	<string name = "level_2_1_grass">Memory #012</string>
+	<string name = "level_2_2_grass">Memory #013</string>
+	<string name = "level_2_3_grass">Memory #014</string>
+	<string name = "level_2_4_grass">Memory #015</string>
+	<string name = "level_2_5_grass">Memory #016</string>
+	<string name = "level_2_6_grass">Memory #017</string>
+	<string name = "level_2_7_grass">Memory #018</string>
+	<string name = "level_2_8_grass">Memory #019</string>
+	<string name = "level_2_9_grass">Memory #020</string>
+	
+	<string name = "level_3_1_sewer">Memory #021</string>
+	<string name = "level_3_2_sewer">Memory #022</string>
+	<string name = "level_3_3_sewer">Memory #023</string>
+	<string name = "level_3_4_sewer">Memory #024</string>
+	<string name = "level_0_1_sewer_kyle">Memory #024.3</string>
+	<string name = "level_0_1_sewer_wanda">Memory #024.7</string>
+	<string name = "level_3_5_sewer">Memory #025</string> <!-- 3-5 is the first level to take place in the "present" -->
+	<string name = "level_3_6_sewer">Memory #026</string>
+	<string name = "level_3_7_sewer">Memory #027</string>
+	<string name = "level_3_8_sewer">Memory #028</string>
+	<string name = "level_3_9_sewer">Memory #029</string>
+	<string name = "level_3_10_sewer">Memory #030</string>
+	<string name = "level_3_11_sewer">Memory #030.5</string> <!-- Special level for Kyle fight -->
+	
+	<string name = "level_4_1_underground">Memory #031</string>
+	<string name = "level_4_2_underground">Memory #032</string>
+	<string name = "level_4_3_underground">Memory #033</string>
+	<string name = "level_4_4_underground">Memory #034</string>
+	<string name = "level_4_5_underground">Memory #035</string>
+	<string name = "level_4_6_underground">Memory #036</string>
+	<string name = "level_4_7_underground">Memory #037</string>
+	<string name = "level_4_8_underground">Memory #038</string>
+	<string name = "level_4_9_underground">Memory #039</string>
+	
+	<string name = "level_final_boss_lab">Memory #040</string>
+	
+	<string name = "level_puzzle_test">Puzzle Test</string>
+	<string name = "level_object_test">Object Test</string>
+	<string name = "level_performance_test">Performance Test</string>
+	<string name = "level_performance_test2">Performance Test 2</string>
+	<string name = "level_performance_test3">Performance Test 3</string>
+	<string name = "level_npc_motion_test">NPC Motion Test</string>
+	
+	<!-- Level time codes -->
+	
+	<!-- level names -->
+	<string name = "level01_time">+ 00:00:00</string>
+	<string name = "level_0_2_time">+ 00:00:00</string>
+	<string name = "level_0_3_time">+ 00:06:26</string>
+	
+	<string name = "level_1_1_time">+ 00:34:10</string>
+	<string name = "level_1_2_time">+ 00:44:46</string>
+	<string name = "level_1_3_time">+ 00:52:16</string>
+	<string name = "level_1_4_time">+ 00:59:01</string>
+	<string name = "level_1_5_time">+ 01:07:24</string>
+	<string name = "level_1_6_time">+ 01:23:38</string>
+	<string name = "level_1_7_time">+ 01:38:04</string>
+	<string name = "level_1_8_time">+ 01:42:00</string>
+	<string name = "level_1_9_time">+ 01:56:44</string>
+	
+	<string name = "level_2_1_time">+ 02:25:18</string>
+	<string name = "level_2_2_time">+ 02:37:20</string>
+	<string name = "level_2_3_time">+ 02:40:13</string>
+	<string name = "level_2_4_time">+ 02:51:09</string>
+	<string name = "level_2_5_time">+ 03:01:55</string>
+	<string name = "level_2_6_time">+ 03:16:28</string>
+	<string name = "level_2_7_time">+ 03:33:12</string>
+	<string name = "level_2_8_time">+ 03:46:07</string>
+	<string name = "level_2_9_time">+ 03:54:29</string>
+	
+	<string name = "level_3_1_time">+ 04:07:10</string>
+	<string name = "level_3_2_time">+ 04:18:42</string>
+	<string name = "level_3_3_time">+ 04:45:15</string>
+	<string name = "level_3_4_time">+ 04:59:06</string>
+	<string name = "level_3_5_time">+ 07:19:59</string>
+	<string name = "level_3_6_time">+ 07:36:17</string>
+	<string name = "level_3_7_time">+ 07:51:24</string>
+	<string name = "level_3_8_time">+ 08:16:55</string>
+	<string name = "level_3_9_time">+ 08:35:12</string>
+	<string name = "level_3_10_time">+ 08:50:36</string>
+	<string name = "level_3_11_time">+ 08:55:54</string>
+	
+	<string name = "level_4_1_time">+ 09:10:01</string>
+	<string name = "level_4_2_time">+ 09:42:40</string>
+	<string name = "level_4_3_time">+ 09:58:11</string>
+	<string name = "level_4_4_time">+ 10:27:36</string>
+	<string name = "level_4_5_time">+ 10:52:10</string>
+	<string name = "level_4_6_time">+ 11:12:35</string>
+	<string name = "level_4_7_time">+ 11:39:04</string>
+	<string name = "level_4_8_time">+ 11:57:22</string>
+	<string name = "level_4_9_time">+ 12:13:40</string>
+	<string name = "level_final_boss_time">+ 12:45:12</string>
+	<string name = "level_test_time">(test level)</string>
+</resources>
